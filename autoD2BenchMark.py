@@ -40,7 +40,7 @@ def run_sequence():
     time.sleep(3)
 
     # Compulsory warmup runs without logging capframex
-    for i in range(1):
+    for i in range(2):
         if terminate: break
         print(f" Warmup {i+1}/2 (no F4) ")
 
